@@ -26,7 +26,7 @@
 
 ## 3. 分析落地页测试 (Analyzing Landing Page Tests)
 
-* **需求**: 基于高跳出率的分析，公司对 `gsearch nonbrand` 流量进行了 `/lander-1` 和 `/home` 页面的50/50 A/B测试 [cite: 43]。Morgan希望比较两组的跳出率，确保公平比较，只查看 `/lander-1` 获得流量的时间段内的数据 。
+* **需求**: 基于高跳出率的分析，公司对 `gsearch nonbrand` 流量进行了 `/lander-1` 和 `/home` 页面的50/50 A/B测试。Morgan希望比较两组的跳出率，确保公平比较，只查看 `/lander-1` 获得流量的时间段内的数据 。
 * **结果**:
     | landing_page | total_sessions | bounced_sessions | bounce_rate |
     |--------------|----------------|------------------|-------------|
@@ -38,7 +38,7 @@
 
 ## 4. 落地页趋势分析 (Landing Page Trend Analysis)
 
-* **需求**: Morgan希望查看自6月1日以来，付费搜索非品牌流量进入 `/home` 和 `/lander-1` 的周度趋势，以确认流量是否正确路由 [cite: 51]。同时，她还希望查看总体的付费搜索跳出率周度趋势，以确保落地页更改改善了整体情况 。
+* **需求**: Morgan希望查看自6月1日以来，付费搜索非品牌流量进入 `/home` 和 `/lander-1` 的周度趋势，以确认流量是否正确路由。同时，她还希望查看总体的付费搜索跳出率周度趋势，以确保落地页更改改善了整体情况 。
 * **结果**:
     | week_start_date | bounce_rate | home_sessions | lander_sessions |
     |-----------------|-------------|---------------|-----------------|
@@ -73,7 +73,7 @@
     | 0.4709          | 0.7405            | 0.4352           | 0.6657        | 0.7930            | 0.4361           |
 * **亮点与结论**:
     * 转化漏斗显示，从 `/lander-1` 到 `/products` 的点击率是0.4709，从 `/products` 到 `/mrfuzzy` 的点击率是0.7405，从 `/mrfuzzy` 到 `/cart` 的点击率是0.4352，从 `/cart` 到 `/shipping` 的点击率是0.6657，从 `/shipping` 到 `/billing` 的点击率是0.7930，从 `/billing` 到 `/thankyou` 的点击率是0.4361 。
-    * Morgan指出，`lander` 页面、`Mr. Fuzzy` 页面和 `billing` 页面有最低的点击率，应作为优化重点 [cite: 62]。她计划对账单页面进行测试 。
+    * Morgan指出，`lander` 页面、`Mr. Fuzzy` 页面和 `billing` 页面有最低的点击率，应作为优化重点。她计划对账单页面进行测试 。
 
 ## 6. 分析转化漏斗测试 (Analyzing Conversion Funnel Tests)
 
