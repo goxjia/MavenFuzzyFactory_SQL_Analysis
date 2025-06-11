@@ -14,7 +14,6 @@
     | gsearch    | brand        | https://www.gsearch.com | 26       |
     | bsearch    | brand        | https://www.bsearch.com | 7        |
     | NULL       | NULL         | https://www.bsearch.com | 7        |
-    (数据来源: Result Grid )
 * **亮点与结论**:
     * `gsearch nonbrand` 是主要的流量来源，占据了绝大部分会话量 (3613 sessions) 。
     * Cindy基于此发现，建议深入分析 `gsearch nonbrand` 以寻求优化机会 。
